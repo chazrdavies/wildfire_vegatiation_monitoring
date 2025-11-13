@@ -1,0 +1,9 @@
+name: wildfire_environment
+channels: 
+  miniconda
+dependancies:
+  - python=3.12
+  - numpy
+  - pandas
+  - pip:
+    -scikit-learn
